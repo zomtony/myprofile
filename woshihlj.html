@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Yang Tong</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/main.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+			
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar" *ngIf="!isAuth"></span>
+					<span class="icon-bar" *ngIf="!isAuth"></span>
+					<span class="icon-bar" *ngIf="!isAuth"></span>
+				</button>
+				<a class="navbar-brand"><b>Yang Tong</b></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">        
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+
+	<div class="animate-box" style="padding:30px;">
+        <div class="row">
+            <div class="col-sm-6"> 
+                Click to browse the website -> <a href="https://woshihlj.com/">woshihlj.com</a></p>
+            </div>
+        </div>
+    </div> 
+    
+    <div id="fh5co-features" style="padding-top: 5em; padding-bottom: 5em">
+        <div class="container">
+            <div class="animate-box"  style="padding-bottom: 5em;">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h1>Main Features</h1>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md-4 animate-box">
+                        <div style="padding-left:10px; padding-right:10px;">
+                            <div class="feature-copy">
+                                <h3>Login/Register</h3>
+                                <p>User can login and register in the website. They can find their post history after they login.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 animate-box">
+                        <div style="padding-left:10px; padding-right:10px;">					
+                            <div class="feature-copy">
+                                <h3>Passowrd</h3>
+                                <p>User can find their password by Email, the serve will send new password to user.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 animate-box">
+                        <div style="padding-left:10px; padding-right:10px;">
+                            <div class="feature-copy">
+                                <h3>Modify Profile</h3>
+                                <p>User can modify their inforamtion and password in profile page</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-4 animate-box">
+
+                        <div style="padding-left:10px; padding-right:10px;">
+                            <div class="feature-copy">
+                                <h3>Looking for tutors/students</h3>
+                                <p>User can post inforamtion which looking for tutors or students</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 animate-box">
+                        <div style="padding-left:10px; padding-right:10px;">
+                            <div class="feature-copy">
+                                <h3>Leave Comment/Rate the tutor</h3>
+                                <p>User can leave comment for the tutor or rate the tutor. Others can look these comment or rating</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 animate-box">
+                        <div style="padding-left:10px; padding-right:10px;">
+                            <div class="feature-copy">
+                                <h3>Dynamic Page</h3>
+                                <p>The page can display very will on different size of screen (desktop / phone).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fh5co-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Page Example</h1>
+                </div>
+                <div class="col-md-6 col-md-push-1 animate-box">
+                    <aside id="fh5co-hero">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li style="background-image: url(images/Main-page.png);">
+                                <div class="overlay-gradient"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+                                            <div class="slider-text-inner">
+                                                <div class="desc">
+                                                    <h2>Main Page</h2>
+                                                    <p>This page show a List of totur's post.
+                                                        User can serach post in serch bar according the scool or course number</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="background-image: url(images/user-profile.png);">
+                                <div class="overlay-gradient"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+                                            <div class="slider-text-inner">
+                                                <div class="desc">
+                                                    <h2>User Profile</h2>
+                                                    <p>Show user information in this page, use can edit and check their post history</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>                          	   	
+                        </ul>
+                    </div>
+                </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fh5co-blog">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h1>More Page Example</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fh5co-blog animate-box">
+                        <p class="blog-bg" style="background-image: url(images/Login.png);"></p>
+                        <div class="blog-text">
+                            <h3>Login Page</h3>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fh5co-blog animate-box">
+                        <p class="blog-bg" style="background-image: url(images/Register.png);"></p>
+                        <div class="blog-text">
+                            <h3>Register Page</h3>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fh5co-blog animate-box">
+                        <p class="blog-bg" style="background-image: url(images/find-password.png);"></p>
+                        <div class="blog-text">
+                            <h3>Find My Password Page</h3>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="fh5co-blog animate-box">
+                        <p class="blog-bg" style="background-image: url(images/post-page.png);"></p>
+                        <div class="blog-text">
+                            <h3>Post Details</h3>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="fh5co-blog animate-box">
+                        <p class="blog-bg" style="background-image: url(images/post-history.png);"></p>
+                        <div class="blog-text">
+                            <h3>Post History</h3>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			
+		</div>
+	</footer>
+
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+
+	</body>
+</html>
+
